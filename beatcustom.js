@@ -131,7 +131,7 @@ if(named == "levelup1"){
 } else if (named == "happynow2"){
     document.getElementById('download').href = "https://cdn.discordapp.com/attachments/1090180158570377226/1113123877564973177/Happy_Now.zip";
 } else if (named == "vibrate"){
-    document.getElementById('download').href = "https://cdn.discordapp.com/attachments/1090180158570377226/1113123877204279306/Vibrate_feat._Rasheeda.zip";
+    document.getElementById('download').href = "https://www.googleapis.com/drive/v3/files/101RPFPerjxtlLcIrD8SpzRCdN_LKqG0s?alt=media&key=AIzaSyAA9ERw-9LZVEohRYtCWka_TQc6oXmvcVU&supportsAllDrives=True";
 } else if (named == "loseyourself"){
     document.getElementById('download').href = "https://cdn.discordapp.com/attachments/1090180158570377226/1113123877963440138/Lose_Yourself.zip";
 }
