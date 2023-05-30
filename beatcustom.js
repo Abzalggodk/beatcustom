@@ -127,13 +127,13 @@ loseyourself.addEventListener('click', (event) => {
 
 download.addEventListener('click', () => {
 if(named == "levelup1"){
-    document.getElementById('download').href = "http://dl.dropboxusercontent.com/s/h3mz9hs6ynqlt79/Level_Up.zip?dl=0";
+    document.getElementById('download').href = "https://cdn.discordapp.com/attachments/1090180158570377226/1113123876839366738/Level_Up.zip";
 } else if (named == "happynow2"){
-    document.getElementById('download').href = "http://dl.dropboxusercontent.com/s/yhazhrtv5hrme00/Happy_Now.zip?dl=0";
+    document.getElementById('download').href = "https://cdn.discordapp.com/attachments/1090180158570377226/1113123877564973177/Happy_Now.zip";
 } else if (named == "vibrate"){
-    document.getElementById('download').href = "http://dl.dropboxusercontent.com/s/hko1t9ewu8mb062/Vibrate_%28feat._Rasheeda%29.zip?dl=0";
+    document.getElementById('download').href = "https://cdn.discordapp.com/attachments/1090180158570377226/1113123877204279306/Vibrate_feat._Rasheeda.zip";
 } else if (named == "loseyourself"){
-    document.getElementById('download').href = "http://dl.dropboxusercontent.com/s/8msfdytiw1m6q7m/Lose_Yourself.zip?dl=0";
+    document.getElementById('download').href = "https://cdn.discordapp.com/attachments/1090180158570377226/1113123877963440138/Lose_Yourself.zip";
 }
 })
 
