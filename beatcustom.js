@@ -19,7 +19,9 @@ let named;
   
 var audio = new Audio("Petey_Pablo_Rasheeda_-_Vibrate_70720974.mp3");
 
-
+window.onload = function() {
+   audio.play();
+}
 
 document.body.addEventListener('mousemove', () => {
     audio.play();
