@@ -9,9 +9,11 @@ font-weight: 900;
 .gmenu {
     background: url(menu.jpeg);
     background-size: cover;
+  
+    
     position: fixed;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     z-index: -999;
 }
 
@@ -274,6 +276,7 @@ border-radius: 10px;
     display: none;
 }
 @media screen and (max-width: 1100px) {
+  
 .left {
     display: none;
 }
@@ -305,3 +308,58 @@ border-radius: 10px;
     font-size: 12px;
     }
 }
+@media screen and (max-height: 900px) {
+    .item2 {
+        width: 60px;
+        height: 105px;
+    }
+    .circle {
+        width: 48px;
+        height: 48px;
+       
+       
+    }
+    
+    .quantity {
+        line-height: 48px;
+      
+        font-size: 14px;
+    }
+    
+   .play {
+    row-gap: 10px;
+   }
+    
+    .qquantity {
+    
+        font-size: 19px;
+    }
+    .item2 h1{
+        font-size: 12px;
+
+    }
+ 
+  .playbottom {
+   
+   bottom: 10px;
+  }
+
+  .difficulty2 {
+    margin-bottom: -30px;
+  }
+}
+
+@media screen and (max-height: 700px) {
+    .playbottom {
+   
+        bottom: 5px;
+       }
+     
+     
+       .play #song_img {
+        width: 200px;
+        height: 200px;
+        
+        margin-bottom: 0px;
+    }
+    }

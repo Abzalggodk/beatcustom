@@ -127,13 +127,13 @@ loseyourself.addEventListener('click', (event) => {
 
 download.addEventListener('click', () => {
 if(named == "levelup1"){
-    document.getElementById('download').href = "https://drive.google.com/uc?export=view&id=1R5lmXA6iLk9bBT9WL5PsD4vrcugNI2Vv";
+    document.getElementById('download').href = "http://dl.dropboxusercontent.com/s/h3mz9hs6ynqlt79/Level_Up.zip?dl=0";
 } else if (named == "happynow2"){
-    document.getElementById('download').href = "https://drive.google.com/uc?export=view&id=1oevz-cZ9EnMizGhB2LPMwW7njFn20obm";
+    document.getElementById('download').href = "http://dl.dropboxusercontent.com/s/yhazhrtv5hrme00/Happy_Now.zip?dl=0";
 } else if (named == "vibrate"){
-    document.getElementById('download').href = "https://drive.google.com/uc?export=view&id=101RPFPerjxtlLcIrD8SpzRCdN_LKqG0s";
+    document.getElementById('download').href = "http://dl.dropboxusercontent.com/s/hko1t9ewu8mb062/Vibrate_%28feat._Rasheeda%29.zip?dl=0";
 } else if (named == "loseyourself"){
-    document.getElementById('download').href = "https://drive.google.com/uc?export=view&id=1foK1XW_pLjnz0caeV5Co1tA724M2mmXz";
+    document.getElementById('download').href = "http://dl.dropboxusercontent.com/s/8msfdytiw1m6q7m/Lose_Yourself.zip?dl=0";
 }
 })
 
