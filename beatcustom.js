@@ -129,7 +129,7 @@ loseyourself.addEventListener('click', (event) => {
 
 download.addEventListener('click', () => {
 if(named == "levelup1"){
-    document.getElementById('download').href = "https://cdn.discordapp.com/attachments/1090180158570377226/1113123876839366738/Level_Up.zip";
+    document.getElementById('download').href = "https://cdn.discordapp.com/attachments/1090180158570377226/1113875224455291010/Level_Up.zip";
 } else if (named == "happynow2"){
     document.getElementById('download').href = "https://cdn.discordapp.com/attachments/1090180158570377226/1113123877564973177/Happy_Now.zip";
 } else if (named == "vibrate"){
