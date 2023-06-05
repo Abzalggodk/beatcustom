@@ -3,7 +3,7 @@ let loseyourself = document.querySelector('#lose_yourself');
 
 let levelup = document.querySelector('#level_up');
 let happynow = document.querySelector('#happy_now');
-
+let thetrooper = document.querySelector('#the_trooper');
 let songname = document.querySelector('#song_name');
 let download = document.querySelector('#download');
 let standard = document.querySelector('#standard');
@@ -113,9 +113,9 @@ vibrate.addEventListener('click', (event) => {
 loseyourself.addEventListener('click', (event) => {
     document.getElementById('song_name').innerHTML = "LOSE YOURSELF";
     document.getElementById('song_author').innerHTML = "Kygo";
-    document.getElementById('song_img').src="1200x1200bf-60.png";
-    document.getElementById('notes').innerHTML = "567";
-    document.getElementById('duration').innerHTML = "2:16";
+    document.getElementById('song_img').src="m1000x1000.jfif.png";
+    document.getElementById('notes').innerHTML = "1030";
+    document.getElementById('duration').innerHTML = "3:26";
     named = "loseyourself";
     audio.pause();
     audio.currentTime = 0;
@@ -127,6 +127,38 @@ loseyourself.addEventListener('click', (event) => {
     }
 })
 
+thetrooper.addEventListener('click', (event) => {
+
+    document.getElementById('song_name').innerHTML = "THE TROOPER (BUFFED)";
+
+    document.getElementById('song_author').innerHTML = "Iron Maiden";
+
+    document.getElementById('song_img').src="c8c0af60220945fc94f36810e5f3ac82.png";
+
+    document.getElementById('notes').innerHTML = "1350+";
+
+    document.getElementById('duration').innerHTML = "2:43";
+
+    named = "thetrooper";
+
+    audio.pause();
+
+    audio.currentTime = 0;
+
+    audio = new Audio('Iron_Maiden_-_The_Trooper_47955104.mp3');
+
+    audio.play();
+
+    if(window.innerWidth < 1100) {
+
+        document.getElementById('left').style.display = "none";
+
+        document.getElementById('playi').style.display = "flex";
+
+    }
+
+})
+
 download.addEventListener('click', () => {
 if(named == "levelup1"){
     document.getElementById('download').href = "https://cdn.discordapp.com/attachments/1090180158570377226/1113875224455291010/Level_Up.zip";
@@ -136,6 +168,10 @@ if(named == "levelup1"){
     document.getElementById('download').href = "https://cdn.discordapp.com/attachments/1090180158570377226/1113123877204279306/Vibrate_feat._Rasheeda.zip";
 } else if (named == "loseyourself"){
     document.getElementById('download').href = "https://cdn.discordapp.com/attachments/1090180158570377226/1113123877963440138/Lose_Yourself.zip";
+} else if (named == "thetrooper"){
+
+    document.getElementById('download').href = "https://cdn.discordapp.com/attachments/1090180158570377226/1115254642125832273/The_Trooper_Buffed.zip";
+
 }
 })
 
